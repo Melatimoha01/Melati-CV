@@ -1,0 +1,68 @@
+body{
+    background-color:#f0b3d1;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+*::selection{
+    color: #f078cc;
+    background-color: #2db49e;
+}
+
+header{
+    background-image: url("Image/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg");
+    color: #000000;
+}
+
+nav{
+    background-color: #4ad5df;
+    position: sticky;
+    top: 0rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    z-index: 5;
+}
+
+nav [href]{
+    margin-right: 0.5rem;
+    color: #FEF5ED;
+}
+a:hover{
+    background-color: #191A19;
+    color: #ffdab9;
+}
+
+section{
+    position: relative;
+    scroll-behavior: auto;
+}
+section h1{
+    background-color: #ffffff;
+    color: #030302;
+    border: 2px solid #36dddd;
+}
+
+#hobi h3{
+    color: #060806;
+}
+
+iframe :nth-of-type(1){
+    width: 50%;
+    height: 30rem;
+}
+@media screen and (max-width:720px) {
+    *{
+        font-family: Comic Sans MS;
+    }
+
+    nav{
+        font-size: 1.2rem;
+        justify-content: space-between;
+    }
+
+    iframe{
+        width: 100%;
+    }
+}
